@@ -170,7 +170,7 @@ section.banner{
 	position: relative;
 	left: -30px;
 	line-height: 70px;
-	background-image: url('../imagens/box-white-text.png');
+	background-image: url('box-white-text.png');
 }
 /*
 section.veiculos-destaque{
