@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+</head>
+<body>
+
+<header>
+
+	<div class="container">
+	<div class="logo">
+		<img src="imagens/logo.png" />
+	</div><!--logo-->
+
+	<nav class="desktop">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+            <li><a style="color:#EB2D2D;"  href="login.html">Login</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+			<li><a href="venda.html">Produtos</a></li>
+			<li><a href="sobre.html">Sobre</a></li>
+		</ul>
+	</nav><!--desktop-->
+
+	<nav class="mobile">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+            <li><a style="color:#EB2D2D;"  href="login.html">Login</a></li>
+			<li><a href="cadastro.html">Cadastro</a></li>
+			<li><a href="venda.html">Produtos</a></li>
+			<li><a href="sobre.html">Sobre</a></li>
+		</ul>
+	</nav><!--mobile-->
+
+	<div class="clear"></div>
+	</div><!--container-->
+</header>
+
+<section class="formu">
+
+
+    <!-- Formulário de Login -->
+    <div class="container_form">
+        <h1>Formulário de Login</h1>
+        <form class="form" action="#" method="post">
+            <div class="form_grupo">
+                <label for="login_email" class="form_label">Email</label>
+                <input type="email" name="login_email" class="form_input" id="login_email" placeholder="seuemail@email.com" required>
+            </div>
+
+            <div class="form_grupo">
+                <label for="login_senha" class="form_label">Senha</label>
+                <input type="password" name="login_senha" class="form_input" id="login_senha" placeholder="Senha" required>
+            </div>
+
+            <div class="submit">
+                <input type="hidden" name="acao" value="login">
+                <button type="submit" name="Submit" class="submit_btn">Login</button>
+            </div>
+        </form>
+    </div><!-- container_form -->
+</section>
+
+
+<footer>
+    <div class="container">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a style="color:#EB2D2D;" href="login.html">Login</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="venda.html">Produtos</a></li>            
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+    <p>Todos os direitos reservados</p>
+    <div class="clear"></div>
+    </div><!--container-->
+</footer>
+
+</body>
